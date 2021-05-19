@@ -1,0 +1,52 @@
+.header__content {
+  width: 1124px;
+  height: 72px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__logo {
+  width: 119.23px;
+  height: 12.31px;
+  padding: 30px 0px 29.69px 81.38px;
+}
+
+.header__buttons {
+  display: flex;
+}
+
+.header__button_sign-in {
+  width: 80px;
+  height: 40px;
+  background: #FFFFFF;
+  border: 1px solid #E0E0E0;
+  box-sizing: border-box;
+  border-radius: 2px;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 16px 16px 16px 0px;
+}
+
+.header__button_register {
+  width: 80px;
+  height: 40px;
+  background: #262626;
+  border-radius: 2px;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  margin: 16px 27px 16px 0px;
+}
+
+.header_button_basket {
+  padding: 24.91px 97.05px 25.35px 0px;
+}
