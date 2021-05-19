@@ -1,3 +1,56 @@
+.main__content {
+  position: relative;
+}
+.main__image {
+  /* position: relative; */
+}
+.main__title-container {
+  display: grid;
+  grid-template-columns: 194.5px 194.5px;
+  grid-template-rows: 102px;
+  width: 389px;
+  height: 204px;
+  background: #FFFFFF;
+  position: absolute;
+  top: 80px;
+  left: 81px;
+}
+
+.main__title {
+  font-size: 36px;
+  line-height: 42px;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  margin: 38px 34px 0px 38px;
+}
+
+.main__description {
+  font-size: 14px;
+  line-height: 16px;
+  color: #626262;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  margin: 40px 0 46px 38px;
+}
+
+.main__button {
+  width: 97px;
+  height: 32px;
+  background: #262626;
+  border-radius: 16px;
+  font-size: 13px;
+  line-height: 15px;
+  color: #FFFFFF;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  margin: 32px 0 0 66px;
+}
 .main__menu {
   width: 1124px;
   height: 80px;
