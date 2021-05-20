@@ -5,7 +5,6 @@
 
 .footer__logo {
   margin: 56px 851.62px 40px 81.62px;
-
 }
 
 .footer__hr {
@@ -62,10 +61,11 @@
 .footer__end-section {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   font-size: 11px;
   line-height: 13px;
   color: #FFFFFF;
-  padding: 40px 364px 52px 81px;
+  margin: 17px 364px 52px 81px;
 }
 
 .footer__end-section a{

@@ -1,8 +1,8 @@
 .main__content {
   position: relative;
 }
-.main__image {
-  /* position: relative; */
+.tablet__image {
+  display: none;
 }
 .main__title-container {
   display: grid;
@@ -64,8 +64,8 @@
 }
 
 .main__menu li {
-  padding-left: 40px;
-  padding-top: 10px;
+  margin-left: 40px;
+  margin-top: 10px;
 }
 
 .main__menu a {
