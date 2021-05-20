@@ -1,0 +1,35 @@
+:root {
+  --body-width-desktop:1124px;
+  --body-width-tablet:768px;
+  --body-width-mobile:320px;
+  --header-height: 72px;
+  --width-header-buttons-desktop: 80px;
+  --height-header-buttons-desktop: 40px;
+  --font-size-buttons-desktop: 13px;
+  --line-height-buttons-desktop: 24px;
+  --width-header-buttons-mobile: 72px;
+  --font-size-header-buttons-mobile: 11px;
+  --line-height-header-buttons-mobile: 13px;
+  --white-color: #FFFFFF;
+  --font-size-main-title: 36px;
+  --line-height-main-title: 42px;
+  --font-size-main-description: 14px;
+  --line-height-main-description: 16px;
+  --border-style: 1px solid rgba(117, 117, 117, 0.2);
+  --snack-title-font-size-desktop: 16px;
+  --snack-title-line-height-desktop: 24px;
+  --snack-title-font-size-mobile: 14px;
+  --snack-title-line-height-mobile: 24px;
+  --grey-color: #626262;
+  --black-color: #262626;
+  --footer-select-background: #3B3B3B;
+  --footer-section-text-font-size: 16px;
+  --footer-section-text-line-height: 19px;
+  --footer-menu-font-size: 13px;
+  --footer-menu-line-height: 15px;
+  --footer-end-section-font-size: 11px;
+  --footer-end-section-line-height: 13px;
+  --snack-image-width-tablet: 200px;
+  --snack-image-height-tablet: 160px;
+  --main-title-container-box-shadow: 0px 0px 16px rgba(117, 117, 117, 0.2);
+}

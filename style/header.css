@@ -1,6 +1,6 @@
 .header__content {
-  width: 1124px;
-  height: 72px;
+  width: var(--body-width-desktop);
+  height: var(--header-height);
   display: flex;
   justify-content: space-between;
 }
@@ -16,15 +16,15 @@
 }
 
 .header__button_sign-in {
-  width: 80px;
-  height: 40px;
+  width: var(--width-header-buttons-desktop);
+  height: var(--height-header-buttons-desktop);
   background: #FFFFFF;
   border: 1px solid #E0E0E0;
   box-sizing: border-box;
   border-radius: 2px;
   font-weight: 500;
-  font-size: 13px;
-  line-height: 24px;
+  font-size: var(--font-size-header-buttons-desktop);
+  line-height: var(--line-height-header-buttons-desktop);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -38,8 +38,8 @@
   background: #262626;
   border-radius: 2px;
   font-weight: 500;
-  font-size: 13px;
-  line-height: 24px;
+  font-size: var(--font-size-header-buttons);
+  line-height: var(--line-height-header-buttons);
   display: flex;
   align-items: center;
   justify-content: center;

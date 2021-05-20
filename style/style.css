@@ -1,10 +1,11 @@
+@import url(./variables.css);
 @import url(./header.css);
 @import url(./main.css);
 @import url(./footer.css);
 @import url(./adaptive.css);
 
 body {
-  width: 1124px;
+  width: var(--body-width-desktop);
   padding: 0;
   margin-top: 0;
   font-family: 'Roboto', sans-serif;
