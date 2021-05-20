@@ -18,7 +18,7 @@
 .header__button_sign-in {
   width: var(--width-header-buttons-desktop);
   height: var(--height-header-buttons-desktop);
-  background: #FFFFFF;
+  background: var(--white-color);
   border: 1px solid #E0E0E0;
   box-sizing: border-box;
   border-radius: 2px;
@@ -31,7 +31,11 @@
   text-align: center;
   margin: 16px 16px 16px 0px;
 }
-
+.header__button_sign-in:hover {
+  background: var(--buttons-hover-background);
+  border-radius: 2px;
+  color: var(--white-color);
+}
 .header__button_register {
   width: 80px;
   height: 40px;
@@ -46,7 +50,20 @@
   color: #FFFFFF;
   margin: 16px 27px 16px 0px;
 }
+.header__button_register:hover {
+  background: var(--buttons-hover-background);
+  border-color: var(--buttons-hover-background);
+  border-radius: 2px;
+  color: var(--white-color);
+}
 
 .header_button_basket {
-  padding: 24.91px 97.05px 25.35px 0px;
+  width: 18.95px;
+  height: 24px;
+  background: url(../assets/basket.png) no-repeat;
+  margin: 24.91px 97.05px 25px 0px;
+  border: none;
+}
+.header_button_basket:hover {
+  background: url(../assets/basket-green.png) no-repeat;
 }

@@ -32,4 +32,6 @@
   --snack-image-width-tablet: 200px;
   --snack-image-height-tablet: 160px;
   --main-title-container-box-shadow: 0px 0px 16px rgba(117, 117, 117, 0.2);
+
+  --buttons-hover-background: #57AD56;
 }

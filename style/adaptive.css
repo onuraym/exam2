@@ -5,7 +5,7 @@
   }
   /* Header adaptive */
   .header__content {
-    width: 768px;
+    width: var(--body-width-tablet);
   }
   .header__logo {
     width: 105.44px;
@@ -13,7 +13,7 @@
     padding: 31px 0px 30.12px 8.34px;
   }
   .header_button_basket {
-    padding: 24.91px 18.05px 25.35px 0px;
+    margin: 24.91px 18.05px 25.35px 0px;
   }
 
   /* Main adaptive */
