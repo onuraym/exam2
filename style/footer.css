@@ -13,7 +13,6 @@
   mix-blend-mode: normal;
   opacity: 0.4;
 }
-
 .footer__select-language {
   background: #3B3B3B;
   border-radius: 2px;
@@ -23,10 +22,16 @@
   line-height: 15px;
   color: #FFFFFF;
   text-transform: uppercase;
-
+  padding-left: 40px;
 }
-
-
+.footer__section-contacts {
+  position: relative;
+}
+.footer__select-icon {
+  position: absolute;
+  top: 12px;
+  left: 15px;
+}
 .footer__main-section {
   display: flex;
   justify-content: space-between;
@@ -65,7 +70,8 @@
   font-size: 11px;
   line-height: 13px;
   color: #FFFFFF;
-  margin: 17px 364px 52px 81px;
+  margin: 17px 364px 0px 81px;
+  padding-bottom: 35px;
 }
 
 .footer__end-section a{

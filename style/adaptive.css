@@ -244,6 +244,12 @@
   }
   .footer__select-language {
     width: 173px;
+    padding-left: 40px;
+  }
+  .footer__select-icon {
+    position: absolute;
+    top: 12px;
+    left: 15px;
   }
   .footer__section-text {
     padding-top: 15px;
@@ -253,6 +259,7 @@
     padding: 0;
   }
   .footer__section-contacts {
+    position: relative;
     margin-bottom: 31px;
   }
   .footer__menu li {
