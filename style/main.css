@@ -4,6 +4,9 @@
 .tablet__image {
   display: none;
 }
+.mobile__image {
+  display: none;
+}
 .main__title-container {
   display: grid;
   grid-template-columns: 194.5px 194.5px;
@@ -56,6 +59,10 @@
   height: 80px;
   background: #FFFFFF;
   border: 1px solid rgba(117, 117, 117, 0.2);
+}
+
+.main__title-hr {
+  display: none;
 }
 
 .main__menu ul {
@@ -123,4 +130,8 @@
   grid-row-start: 2;
   grid-row-end: 3;
   margin: 35px 0px 16px 16px;
+}
+
+.main__menu-hr {
+  display: none;
 }
